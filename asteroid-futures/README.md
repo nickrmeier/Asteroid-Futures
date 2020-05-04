@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ASTEROID FUTURES
 
-## Available Scripts
+This app was developed as a concept to provide accurate information about asteroids material value for potential investors. The app pulls information from the Asterank API (http://www.asterank.com/api), which itself is a thin layer over the NASA/JPL Small Body Database. The API returns information about the chemical make-up of each asteroid, and the estimated market value. For example a 'Type Xc' asteroid is primarily made up of platinum, nickel, iron, colbalt. With these material lists and the asteroid diameter, a rough estimate of the market value can be determined.
 
-In the project directory, you can run:
 
-### `yarn start`
+MAJOR COMPONENTS
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+HOME - This is the landing page, and helps to guide users moving forward. In V2 there will  be a more interactive/illustrated instruction palette so that users know immediately how the whole app works.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ASTEROIDS - This page showcases a curated selection of six asteroids. a photo of each is shown. Users can click on any image to see detailed information on that asteroid (name, diameter, type, estimated value and estimated profit).
 
-### `yarn test`
+TYPES - This page lists asteroid classifications and the materials of each classification. Asteroid V2 will feature a search bar that connects to a commodities API, so users can track the changing prices of each material.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+PARTNERS - This page connects to various 'partners' (note: this is a conceptual project, asteroid futures does not currently work with any of the partners listed). 
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+PRIMARY LANGUAGES USED:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ReactJS
+HTML5
+CSS3
+Javascript 1.8.5
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+PROGRAMS & RESOURCES USED:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Visual Studio Code
+GitHub
+YouTube
+W3Schools
+Mozilla MDN
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+CREDITS:
+Project Noun ('asteroid' icon)
+Image Credits (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/galleries/?page=0&per_page=25&order=created_at+desc&search=&href_query_params=category%3Dplanets_jupiter&button_class=big_more_button&tags=asteroids&condition_1=1%3Ais_in_resource_list&category=51)
