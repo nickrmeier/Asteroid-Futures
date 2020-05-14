@@ -15,7 +15,7 @@ export default class FetchAsteroidName extends React.Component {
     }
 
     async componentDidMount() {
-        const url = `http://www.asterank.com/api/asterank?query={"a":{"$lt":5}}&limit=100`;
+        const url = `https://www.asterank.com/api/asterank?query={"a":{"$lt":5}}&limit=100`;
 
         // CERES 
         fetch(url)
