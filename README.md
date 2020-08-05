@@ -1,10 +1,6 @@
 # Asteroid-Futures
 
-Read Me! need to write
-
 https://asteroid-futures.herokuapp.com/
-
-ASTEROID FUTURES
 
 This app was developed as a concept to provide accurate information about asteroids material value for potential investors. The app pulls information from the Asterank API (http://www.asterank.com/api), which itself is a thin layer over the NASA/JPL Small Body Database. The API returns information about the chemical make-up of each asteroid, and the estimated market value. For example a 'Type Xc' asteroid is primarily made up of platinum, nickel, iron, colbalt. With these material lists and the asteroid diameter, a rough estimate of the market value can be determined.
 
